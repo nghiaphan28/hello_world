@@ -1,12 +1,4 @@
-#include<mysql/mysql.h>
-#include<wiringPi.h>
-#include<softPwm.h>
-#include <stdio.h>
-#include <stdlib.h>
-#define IN1 37
-#define IN2 31
-#define ENA 29
-#define PWM_INIT 10
+
 unsigned char button[4]={16,18,22,36};
 int tt4_pi,fan_level_pi;
 int state_web,fan_web;
