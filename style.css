@@ -1,0 +1,236 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: "Roboto",sans-serif;
+}
+header{
+    position:fixed;
+    background: #22242A;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
+}
+.left_area h3{
+    color:#87CEFA;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 1000;
+}
+.left_area span{
+    color:silver
+}
+.login_bt{
+    padding:5px;
+    background: snow;
+    text-decoration:none;
+    float:right;
+    margin-top:-40px;
+    margin-right:50px;
+    border-radius: 4px;
+    font-size:20px;
+    font-weight:900;
+    color:#87CEFA;
+    transition: 0.5s;
+    transition-property: background ;
+}
+.login_bt:hover{
+    background:gray;
+}
+.sidebar{
+    background:#22242A;
+    margin-top:70px;
+    padding-top:30px;
+    position:fixed;
+    left:0;
+    width: 350px;
+    height:100%;
+}
+.sidebar .profile_image{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    margin-bottom:10px;
+}
+.sidebar h4{
+    color:#ccc;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.sidebar i{
+    color:silver;
+    padding-right:10px;
+}
+.sidebar a{
+    color:#87CEFA;
+    display:block;
+    font:"Roboto";
+    text-transform: uppercase;
+    width:100%;
+    line-height: 80px;
+    text-decoration: none;
+    padding-left: 40px;
+    font-weight: 1000;
+    font-size:medium;
+    box-sizing:border-box;
+    transition: 0.5s;
+    transition-property: background ;
+}
+.sidebar a:hover{
+    background:#F0FFFF;
+}
+label #sidebar_btn{
+    z-index:1;
+    color:white;
+    position:fixed;
+    cursor:pointer;
+    left: 500px;
+    font-size:20px;
+    margin: 5px 0;
+}
+label #sidebar_btn:hover{
+    color:#19B3D3;
+}
+#check:checked ~.sidebar{
+    left:-190px;
+}
+.ledbox h5{
+    padding-left: 50px; ;
+}
+.wrapper .headcolor{
+    font-family: "Roboto",sans-serif;
+  
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 1000;
+}
+.wrapper .currentcolor{
+    font-family: "Roboto",sans-serif;
+    
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 1000;
+}
+.wrapper .table .red-header{
+    font-family: "Roboto",sans-serif;
+    color:red;
+    font-weight: 1000;
+    margin: 0;
+    text-transform: uppercase;
+}
+.wrapper .table .green-header{
+    font-family: "Roboto",sans-serif;
+    color:green;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin: 0;
+}
+.wrapper .table .blue-header{
+    font-family: "Roboto",sans-serif;
+    color:blue;
+    text-transform: uppercase;
+    font-weight: 1000;
+    margin: 0;
+}
+.wrapper .mb-3 .form-label{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 1000;
+    margin: 0;
+}
+.wrapper .control-header{
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    margin: 0;
+    text-transform: uppercase;
+}
+.mb-3 .red-range1{
+    color:red;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    margin: 0;
+}
+.mb-3 .red-range2{
+    color:blue;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    margin: 0;
+}
+.mb-3 .red-range3{
+    color:green;
+    font-family: "Roboto",sans-serif;
+    font-size: 22px;
+    font-weight: 1000;
+    margin: 0;
+}
+.background{
+    margin-left: 200px;
+    background:url(room.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.background1{
+    margin-left: 100px;
+    background-color:#87CEFA;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.wrapper .control-header1{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0;
+    margin-left: -250px;
+}
+.wrapper .para{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 0;
+    margin-left: -250px;
+}
+.wrapper .checkbox-inline1{
+    margin-top:-300px;
+    margin-left:-150px;
+}
+.wrapper .btn-bt1{
+    margin-top:-300px;
+    margin-left:-150px;}
+.wrapper .mb-3 .form-label-fan
+{   font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 20px;
+    margin-top:-300px;
+    margin-left:-250px;
+}
+.wrapper .mb-3 .form-text-fan{
+    margin-right:-500px;
+}
+.background1 img{
+    width:20%;
+    height:30%;
+    margin-left:280px;
+    margin-top: 180px;
+}
+.background2 {
+    margin-left: 100px;
+    background-color:#87CEFA;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.background2 img{
+    height: 20%;
+    width:20%;
+}
